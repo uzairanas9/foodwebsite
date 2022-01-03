@@ -1,0 +1,78 @@
+.banner
+{
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.social-media-button
+{
+  padding-top: 10px;
+}
+
+.signin-card
+{
+  width: 365px;
+  height: 310px;
+  margin-left: 500px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.signin-card h4
+{
+  margin-left: 15px;
+}
+
+.info-section
+{
+  padding-top: 15px;
+}
+
+.short-form
+{
+  width: 100px;
+}
+
+.long-form
+{
+  padding-left: 15px;
+  width: 300px;
+}
+
+.checkbox
+{
+  padding-left: 35px
+}
+
+.forgot-password
+{
+  padding-left: 15px;
+  font-style: italic;
+  color: black;
+}
+
+.btn
+{
+  margin-top: 3px;
+}
+
+.btn-primary
+{
+  background-image: linear-gradient(to bottom, #D30E00 0, #CE0D00 100%) !important;
+  background-color: #D30E00 !important;
+  border-color: #CE0D00 !important;
+  border-radius: 5px !important;
+}
+
+.btn-primary:hover
+{
+  border-color: #D30E00 !important;
+}
+
+.btn:focus
+{
+  outline: none !important;
+}

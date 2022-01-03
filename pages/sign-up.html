@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!-- This represents lets the user sign up -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Sign Up</title>
+
+    <!-- Reference to other files -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/sign-up.css">
+
+    <!-- FavIcon -->
+    <link rel="shortcut icon" href="../images/tomato.ico" type="image/x-icon">
+
+    <!-- Required Libaries -->
+    <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../libs/bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+
+    <!-- Font API'S -->
+    <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Roboto" rel="stylesheet">
+
+  </head>
+
+  <!-- Navigation bar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+
+        <a href ="../index.html" class = "navbar-brand navbar-left navName" style="color: black">Kha Lo Bhai</a>
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" style="color: black" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+
+          </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div id= "navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right navName2">
+            <li><a href="../index.html"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+
+            <li><a href="sign-in.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> Sign In</a></li>
+            <li><a href="aboutus.html"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About US</a></li>
+            <li><a href="contact.html"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> Contact</a></li>
+          </ul>
+
+        </div>
+
+      </div>
+    </nav>
+
+  <body style="background-color: #F2F2F2">
+
+    <div class="banner">
+      Already have an account?
+      <a href="sign-in.html">Sign In</a>
+    </div>
+
+    <div class="signup-card container-fluid" style="background-color: white">
+      <div class="info-section">
+        <h4>Name:</h4>
+        <form class="short-form col-md-6" role="First Name">
+          <input type="text" class="form-control" placeholder="First Name">
+        </form>
+        <form class="short-form col-md-6" role="Last Name">
+          <input type="text" class="form-control" placeholder="Last Name">
+        </form>
+      </div>
+
+      <div class="info-section">
+        <br>
+        <h4>Email:</h4>
+        <form  class="long-form" role="Email">
+          <input type="text" class="form-control" placeholder="Email">
+        </form>
+      </div>
+
+      <div class="info-section">
+        <h4>Password:</h4>
+        <form  class="long-form" role="Password">
+          <input type="text" class="form-control" placeholder="Password">
+        </form>
+      </div>
+
+      <div class="info-section">
+        <h4>Reenter Password:</h4>
+        <form  class="long-form" role="Reenter-Password">
+          <input type="text" class="form-control" placeholder="Reenter Password">
+        </form>
+      </div>
+      <center>
+      <a href="please-verify.html" class="btn btn-primary btn-lg btn-1"><span title="For customers with small orders">Submit</span></a>
+    </center>
+
+    </div>
+  <!-- Javascript Libs -->
+  <script src="../js/jquery-3.1.1.min.js"></script>
+  <script src="../libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
